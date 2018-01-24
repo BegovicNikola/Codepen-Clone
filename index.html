@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="js/lib/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<header id="header">
+		<div id="logo">
+			<h1 id="siteName">JustCode</h1>
+		</div>
+		<div id="function">
+			<ul id="flexList">
+				<li id="html" class="active">HTML</li>
+				<li id="css">CSS</li>
+				<li id="javascript">Javascript</li>
+				<li id="output" class="active">Output</li>
+			</ul>
+		</div>
+	</header>
+	<div id="container">
+		<textarea id="htmlContainer" class="panel" placeholder="HTML..."></textarea>
+		<textarea id="cssContainer" class="panel hidden" placeholder="CSS..."></textarea>
+		<textarea id="javascriptContainer" class="panel hidden" placeholder="JAVASCRIPT..."></textarea>
+		<iframe id="outputContainer" class="panel"></iframe>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

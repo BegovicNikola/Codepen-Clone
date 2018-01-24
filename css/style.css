@@ -1,0 +1,93 @@
+@font-face{
+	src: url("header.ttf");
+	font-family: "header";
+}
+
+@font-face{
+	src: url("code.ttf");
+	font-family: "code";
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.active{
+	background-color: #606060;
+}
+
+#header{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0px;
+	background-color: #282828;
+	color: #fff;
+}
+
+#logo{
+	font-family: "header", "sans-serif";
+	font-size: 12px;
+}
+
+#flexList{
+	display: flex;
+	justify-content: space-between;
+}
+
+#flexList li{
+	padding: 10px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	font-family: "code", "sans-serif";
+	font-size: 14px;
+	font-weight: 900;
+}
+
+#flexList li:hover{
+	background-color: #606060;
+}
+
+li{
+	border-right: none;
+}
+
+#html{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#output{
+	border-right: 1px solid #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#container{
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.hidden{
+	display: none;
+}
+
+textarea{
+	resize: none;
+	flex-grow: 1;
+	outline: none;
+	line-height: 1.2em;
+	border-color: #ccc;
+	padding: 8px 6px 0px 6px;
+	border-left: none;
+	font-weight: 600;
+}
+
+iframe{
+	flex-grow: 2;
+}
